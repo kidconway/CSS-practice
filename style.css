@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Open Sans",sans-serif
+}
+
+#wrapper {
+  background-color: black;
+
+}
+#toolbar {
+  width:100%;
+  height: 20px;
+  display:inline-block;
+}
+#toolbar .tool-left {
+  display: inline-block;
+  width: 40%;
+}
+#toolbar .tool-left ul {
+  list-style: none;
+  background-color: black;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+}
+#toolbar .tool-left li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+
+
+  display: inline-block;
+}
+#toolbar .tool-left a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+
+
+#toolbar .tool-right {
+  display: inline-block;
+  width: 40%;
+}
+
+#toolbar .tool-right ul {
+  list-style: none;
+  background-color: black;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+#toolbar .tool-right li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  display: inline-block;
+}
+#toolbar .tool-right a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+#toolbar .tool-right span.join{
+  color:#F96854;
+}
+#header {
+  background: #081209; /* Old browsers */
+  background: -moz-linear-gradient(top, #081209 14%, #116619 43%, #116619 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #081209 14%,#116619 43%,#116619 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #081209 14%,#116619 43%,#116619 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081209', endColorstr='#116619',GradientType=0 );
+
+}
+
+#header .nav-bar-left {
+  width:25%;
+  display: inline-block;
+}
+#header .nav-bar-right{
+  width: 70%;
+  height:70px;
+  display:inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+#header .nav-bar-right ul{
+  list-style: none;
+  display: inline-block;#F6ED3B
+  text-align: initial;
+
+}
+
+#header .nav-bar-right li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  padding:25px 30px;
+}
+#header li:hover{
+  background-color: #5B9B63;
+}
+#header a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#header .DFS-link{
+  padding:0px;
+}
+#header .DFS-pass {
+  color:#F6ED3B;
+}
+#header .DFS-trophy-img {
+  width:16px;
+  height:auto;
+  display:inline-block;
+}
+
+.main-content-top-left {
+  width:600px;
+  height: 600px;
+  display: inline-block;
+}
+.main-content-top-right{
+  width:580px;
+  height:343px;
+  vertical-align: middle;
+  display: inline-block;
+  vertical-align: top;
+}
+.main-content-top-right {
+  width: 580px;
+  height:385px;
+  margin-top: 120px;
+  text-align: center;
+}
+.main-content-top-right h1{
+  text-align: center;
+  color:white;
+}
+
+#main-content-top .main-content-top-right, span{
+  color:white;
+  text-align: center;
+}
+#main-content-top .main-content-top-right, span.heading1{
+  font-size:26px;
+  font-family: 'Oswald', sans-serif;
+  display:block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+#main-content-top .main-content-top-right, span.heading2{
+  font-size:16px;
+  font-family: 'Oswald', sans-serif;
+  display:block;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.x-bg-layer-lower-image {
+  background: black url('images/background-img.jpg') no-repeat center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.podcast-logo-style.apple-logo-link.apple{
+  background:url("images/apple-logo.png");
+  width:128px;
+  height:60px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.podcast-logo-style.apple-logo-link.apple:hover{
+  background:url("images/apple-logo-hover.png");
+}
+
+.podcast-logo-style.android-logo-link.android{
+  background:url("images/android-logo.png");
+  width:128px;
+  height:60px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.podcast-logo-style.android-logo-link.android:hover{
+  background:url("images/android-logo-hover.png");
+}
+
+.podcast-logo-style.youtube-logo-link.youtube{
+  background:url("images/youtube-logo.png");
+  width:128px;
+  height:60px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.podcast-logo-style.youtube-logo-link.youtube:hover{
+  background:url("images/youtube-logo-hover.png");
+}
